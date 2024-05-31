@@ -27,9 +27,9 @@ export default function Commands() {
             </label>
           </header>
             
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb1" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb1">
               1. Acceptance of Terms
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -43,9 +43,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb2" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb2">
               2. Description of Service
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -77,9 +77,9 @@ export default function Commands() {
           </section>
 
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb4" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb4">
               3. Modifications to Terms
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -93,9 +93,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb5" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb5">
               4. Use of the Service
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -109,9 +109,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb6" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb6">
               5. Your Registration Obligations
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -125,9 +125,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb7" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb7">
               6. Privacy Policy
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -141,9 +141,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb8" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb8">
               7. Termination
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -157,9 +157,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb9" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb9">
               8. Disclaimer of Warranties
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -173,9 +173,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb10" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb10">
               9. Limitation of Liability
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -189,9 +189,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb11" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb11">
               10. Governing Law
             </label>
             <label className="box-close" htmlFor="acc-close"></label>

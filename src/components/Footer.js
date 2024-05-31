@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  ONbot
                 </Link>
                 <span
                   style={{
@@ -59,9 +59,9 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Created with ❤️ by{" "}
+              Created with ❤️ by{"qvnrvx"}
               <Link
-                href="https://github.com/preetsuthar17"
+                href="https://discord.gg/uzsBkB9wm4"
                 className="h-color no-decoration"
               >
                 Preet Suthar

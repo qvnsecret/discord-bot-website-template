@@ -76,7 +76,6 @@ const Footer = () => {
             <Link className="p-color no-decoration" href="#">
               Privacy SOON
             </Link>
-              </Link>
             <Link className="p-color no-decoration" href="#">
               Terms of Use
             </Link>

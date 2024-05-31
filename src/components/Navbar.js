@@ -17,12 +17,12 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="p-color" href="/">
-                /home
+                Home
               </Link>
             </li>
             <li>
               <Link className="p-color" href="/commands">
-                /commands
+                Commands
               </Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 href="https://discord.gg/uzsBkB9wm4"
                 target="_blank"
               >
-                /source-code
+                Discord Server
               </Link>
             </li>
           </ul>

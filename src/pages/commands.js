@@ -14,7 +14,7 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | ONbot</title>
         <meta
           name="description"
           content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
@@ -39,7 +39,7 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
+                  <kbd>.</kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
                 <li>

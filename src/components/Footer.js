@@ -59,12 +59,12 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Created with ❤️ by{"qvnrvx"}
+              Created with ❤️ by{" "}
               <Link
                 href="https://discord.gg/uzsBkB9wm4"
                 className="h-color no-decoration"
               >
-                Preet Suthar
+                qvnrvx
               </Link>
             </p>
             <p className="p-color">{year} &copy; All rights reserved!</p>

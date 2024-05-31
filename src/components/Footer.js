@@ -73,10 +73,10 @@ const Footer = () => {
             <Link className="p-color no-decoration" href="https://www.gofundme.com/f/onbot?utm_source=copy_link&utm_medium=customer&utm_campaign=man_sharesheet_ft&attribution_id=sl:771ffe83-8e1b-4217-bfb4-f0a9f04fc08c">
               Donation
             </Link>
-            <Link className="p-color no-decoration" href="#">
-              Privacy SOON
+            <Link className="p-color no-decoration" href="/privacy">
+              Privacy
             </Link>
-            <Link className="p-color no-decoration" href="#">
+            <Link className="p-color no-decoration" href="/tos">
               Terms of Use
             </Link>
           </div>

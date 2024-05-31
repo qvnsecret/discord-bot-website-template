@@ -30,7 +30,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              General & Information 👀
+              📘Privacy Statement
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">

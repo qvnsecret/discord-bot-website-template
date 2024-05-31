@@ -73,13 +73,6 @@ const Footer = () => {
             <Link className="p-color no-decoration" href="#">
               /support
             </Link>
-            <Link
-              target="_blank"
-              className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
-            >
-              /source-code
-            </Link>
             <Link className="p-color no-decoration" href="#">
               /privacy
             </Link>

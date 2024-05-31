@@ -39,17 +39,17 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="p-color" href="/commands">
-                  /commands
+                  Commands
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
-                  /support
+                <Link className="p-color" href="https://discord.com/oauth2/authorize?client_id=1223343717184835754">
+                  Support
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
-                  /discord-server
+                <Link className="p-color" href="https://discord.gg/uzsBkB9wm4">
+                  Discord
                 </Link>
               </li>
             </ul>

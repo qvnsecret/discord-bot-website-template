@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
+
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,19 +25,6 @@ export default function Home() {
       <Showcase />
       <About />
       <JoinNow />
-      {/* Adding Image Link */}
-      <div style={{ textAlign: "center", margin: "20px 0" }}>
-        <Link href="https://onbott.vercel.app/" passHref>
-          <a target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/onbot.png" // Update with the correct path to your image
-              alt="Descriptive Alt Text"
-              width={500} // Specify the desired width
-              height={300} // Specify the desired height
-            />
-          </a>
-        </Link>
-      </div>
       <Footer />
     </>
   );

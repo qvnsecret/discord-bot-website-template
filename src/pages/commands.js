@@ -1,16 +1,12 @@
 import Head from "next/head";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { motion } from "framer-motion";
 
 export default function Commands() {
   return (
     <motion.div
-      initial={{
-        opacity: 0,
-      }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
       <Head>
@@ -30,6 +26,7 @@ export default function Commands() {
               ⚡ Commands
             </label>
           </header>
+
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
@@ -153,31 +150,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-          <input type="radio" name="accordion" id="cb2" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
 
-            
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
@@ -185,6 +158,7 @@ export default function Commands() {
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
+              <ul>
                 <li>
                   <kbd>.stats</kbd> -{" "}
                   <span className="p-color">Stats of the bot.</span>

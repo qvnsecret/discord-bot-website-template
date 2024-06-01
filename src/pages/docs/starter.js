@@ -8,7 +8,7 @@ export default function Documentation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      style={{ backgroundColor: "#1e1e1e", color: "#fff", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center" }}
+      style={{ backgroundColor: "#1e1e1e", color: "#fff", minHeight: "100vh", display: "flex", flexDirection: "column" }}
     >
       <Head>
         <title>Documentation | ONbot</title>
@@ -20,7 +20,7 @@ export default function Documentation() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="documentation" style={{ maxWidth: "800px", width: "100%", padding: "20px", textAlign: "center" }}>
+      <main className="documentation">
         <section className="intro-section">
           <h1>ONbot Documentation</h1>
           <p>Welcome to the ONbot documentation. This guide will help you understand how to set up and use ONbot efficiently.</p>
@@ -28,15 +28,15 @@ export default function Documentation() {
         
         <section className="toc-section">
           <h2>Table of Contents</h2>
-          <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-            <li><a href="#overview" style={{ color: "#58a6ff", textDecoration: "none" }}>Overview</a></li>
-            <li><a href="#getting-started" style={{ color: "#58a6ff", textDecoration: "none" }}>Getting Started</a></li>
-            <li><a href="#configuration" style={{ color: "#58a6ff", textDecoration: "none" }}>Configuration</a></li>
-            <li><a href="#features" style={{ color: "#58a6ff", textDecoration: "none" }}>Features</a></li>
-            <li><a href="#usage" style={{ color: "#58a6ff", textDecoration: "none" }}>Usage</a></li>
-            <li><a href="#troubleshooting" style={{ color: "#58a6ff", textDecoration: "none" }}>Troubleshooting</a></li>
-            <li><a href="#faq" style={{ color: "#58a6ff", textDecoration: "none" }}>FAQ</a></li>
-            <li><a href="#support" style={{ color: "#58a6ff", textDecoration: "none" }}>Support</a></li>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#configuration">Configuration</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#support">Support</a></li>
           </ul>
         </section>
 

@@ -8,7 +8,7 @@ export default function Documentation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      style={{ backgroundColor: "#1e1e1e", color: "#fff", minHeight: "100vh", display: "flex", flexDirection: "column" }}
+      style={{ backgroundColor: "rgba(30, 30, 30, 0.9)", color: "#fff", minHeight: "100vh", display: "flex", flexDirection: "column" }}
     >
       <Head>
         <title>Documentation | ONbot</title>
@@ -21,12 +21,7 @@ export default function Documentation() {
       </Head>
       <Navbar />
       <main className="documentation">
-        <section className="intro-section">
-          <h1>ONbot Documentation</h1>
-          <p>Welcome to the ONbot documentation. This guide will help you understand how to set up and use ONbot efficiently.</p>
-        </section>
-        
-        <section className="toc-section">
+        <aside className="toc-section">
           <h2>Table of Contents</h2>
           <ul>
             <li><a href="#overview">Overview</a></li>
@@ -38,85 +33,87 @@ export default function Documentation() {
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#support">Support</a></li>
           </ul>
-        </section>
+        </aside>
+        <div className="separator"></div>
+        <section className="content-section">
+          <section id="overview" className="section">
+            <h2>Overview</h2>
+            <p>This document provides a detailed explanation of how ONbot functions, including setup instructions, features, and troubleshooting tips. Images and detailed explanations are included to guide you through each step.</p>
+          </section>
 
-        <section id="overview" className="content-section">
-          <h2>Overview</h2>
-          <p>This document provides a detailed explanation of how ONbot functions, including setup instructions, features, and troubleshooting tips. Images and detailed explanations are included to guide you through each step.</p>
-        </section>
+          <section id="getting-started" className="section">
+            <h2>Getting Started</h2>
+            <h3>Prerequisites</h3>
+            <ul>
+              <li>Node.js installed</li>
+              <li>A Discord account</li>
+              <li>Access to the Discord Developer Portal</li>
+            </ul>
+            <h3>Installation</h3>
+            <p>To install ONbot, follow these steps:</p>
+            <ol>
+              <li>Clone the repository</li>
+              <li>Install the required dependencies</li>
+              <li>Start the bot</li>
+            </ol>
+            {/* Insert image of terminal with commands here */}
+          </section>
 
-        <section id="getting-started" className="content-section">
-          <h2>Getting Started</h2>
-          <h3>Prerequisites</h3>
-          <ul>
-            <li>Node.js installed</li>
-            <li>A Discord account</li>
-            <li>Access to the Discord Developer Portal</li>
-          </ul>
-          <h3>Installation</h3>
-          <p>To install ONbot, follow these steps:</p>
-          <ol>
-            <li>Clone the repository</li>
-            <li>Install the required dependencies</li>
-            <li>Start the bot</li>
-          </ol>
-          {/* Insert image of terminal with commands here */}
-        </section>
+          <section id="configuration" className="section">
+            <h2>Configuration</h2>
+            <h3>Setting up API Keys</h3>
+            <p>To configure API keys, follow these steps:</p>
+            <ol>
+              <li>Navigate to the settings page</li>
+              <li>Enter your API key in the designated field</li>
+              <li>Save your changes</li>
+            </ol>
+            {/* Insert image of settings page here */}
+            
+            <h3>Configuring Settings</h3>
+            <p>You can customize the bot settings to suit your needs. This section explains how to modify the settings for optimal performance.</p>
+            {/* Insert image of configuration panel here */}
+          </section>
 
-        <section id="configuration" className="content-section">
-          <h2>Configuration</h2>
-          <h3>Setting up API Keys</h3>
-          <p>To configure API keys, follow these steps:</p>
-          <ol>
-            <li>Navigate to the settings page</li>
-            <li>Enter your API key in the designated field</li>
-            <li>Save your changes</li>
-          </ol>
-          {/* Insert image of settings page here */}
-          
-          <h3>Configuring Settings</h3>
-          <p>You can customize the bot settings to suit your needs. This section explains how to modify the settings for optimal performance.</p>
-          {/* Insert image of configuration panel here */}
-        </section>
+          <section id="features" className="section">
+            <h2>Features</h2>
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1 and how to use it.</p>
+            {/* Insert image or GIF of Feature 1 in action here */}
+            
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2 and how to use it.</p>
+            {/* Insert image or GIF of Feature 2 in action here */}
+          </section>
 
-        <section id="features" className="content-section">
-          <h2>Features</h2>
-          <h3>Feature 1</h3>
-          <p>Description of Feature 1 and how to use it.</p>
-          {/* Insert image or GIF of Feature 1 in action here */}
-          
-          <h3>Feature 2</h3>
-          <p>Description of Feature 2 and how to use it.</p>
-          {/* Insert image or GIF of Feature 2 in action here */}
-        </section>
+          <section id="usage" className="section">
+            <h2>Usage</h2>
+            <h3>Basic Commands</h3>
+            <p>A list of basic commands and how to use them.</p>
+            {/* Insert screenshot of command list here */}
+            
+            <h3>Advanced Commands</h3>
+            <p>A list of advanced commands and how to use them.</p>
+            {/* Insert screenshot of advanced command list here */}
+          </section>
 
-        <section id="usage" className="content-section">
-          <h2>Usage</h2>
-          <h3>Basic Commands</h3>
-          <p>A list of basic commands and how to use them.</p>
-          {/* Insert screenshot of command list here */}
-          
-          <h3>Advanced Commands</h3>
-          <p>A list of advanced commands and how to use them.</p>
-          {/* Insert screenshot of advanced command list here */}
-        </section>
+          <section id="troubleshooting" className="section">
+            <h2>Troubleshooting</h2>
+            <p>Common issues and how to resolve them.</p>
+            {/* Insert image of common error messages here */}
+          </section>
 
-        <section id="troubleshooting" className="content-section">
-          <h2>Troubleshooting</h2>
-          <p>Common issues and how to resolve them.</p>
-          {/* Insert image of common error messages here */}
-        </section>
+          <section id="faq" className="section">
+            <h2>FAQ</h2>
+            <p>Frequently asked questions about ONbot.</p>
+            {/* Insert relevant images or diagrams here */}
+          </section>
 
-        <section id="faq" className="content-section">
-          <h2>FAQ</h2>
-          <p>Frequently asked questions about ONbot.</p>
-          {/* Insert relevant images or diagrams here */}
-        </section>
-
-        <section id="support" className="content-section">
-          <h2>Support</h2>
-          <p>If you need further assistance, please contact our support team.</p>
-          {/* Insert image of contact form or support information here */}
+          <section id="support" className="section">
+            <h2>Support</h2>
+            <p>If you need further assistance, please contact our support team.</p>
+            {/* Insert image of contact form or support information here */}
+          </section>
         </section>
       </main>
       <Footer />

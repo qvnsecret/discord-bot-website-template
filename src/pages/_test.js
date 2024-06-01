@@ -19,15 +19,12 @@ export default function Commands() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <section className="about-section">
-        <nav className="accordion arrows" id="commands">
-          <header className="box"></header>
           <main className="showcase">
             <h1 className="showcase-header">ONbot</h1>
-            <h2 className="showcase-header-text">
+            <h2 className="showcase-header-text h-color">
               The only discord bot you need!
             </h2>
-            <p className="showcase-para">
+            <p className="showcase-para h-color">
               One of the awesome discord bot with tons of commands that will fill
               your needs in your discord server.
             </p>

@@ -37,9 +37,7 @@ export default function Commands() {
               <ul>
                 <li>
                   <kbd></kbd> -{" "}
-                  <span className="p-color">At Mytho, operated by Reduce, we hold the utmost respect for your privacy. Only the Founder & CEO of the project has access to your personal information. Your privacy is of paramount importance to us. Please be assured that any personal information we collect is solely for educational purposes.
-
-This statement makes clear who has access to personal information and the purpose behind collecting it, maintaining transparency and building trust.</span>
+                  <span className="p-color">At ONbot, operated by Reduce, we hold the utmost respect for your privacy. Only the Founder & CEO of the project has access to your personal information. Your privacy is of paramount importance to us. Please be assured that any personal information we collect is solely for educational purposes. This statement makes clear who has access to personal information and the purpose behind collecting it, maintaining transparency and building trust.</span>
                 </li>
               </ul>
             </div>

@@ -19,6 +19,8 @@ export default function Commands() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <section className="about-section">
+        <nav className="accordion arrows" id="commands">
           <main className="showcase">
             <h1 className="showcase-header">ONbot</h1>
             <h2 className="showcase-header-text h-color">
@@ -48,8 +50,6 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-
-          <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
       <Footer />

@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 
 export default function Documentation() {
@@ -8,7 +6,7 @@ export default function Documentation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      style={{ backgroundColor: "rgba(30, 30, 30, 0.9)", color: "#fff", minHeight: "100vh", display: "flex", flexDirection: "column" }}
+      style={{ backgroundColor: "#fff", color: "#000", minHeight: "100vh", display: "flex", flexDirection: "column" }}
     >
       <Head>
         <title>Documentation | ONbot</title>
@@ -19,20 +17,22 @@ export default function Documentation() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      <Header />
       <main className="documentation">
         <aside className="toc-section">
-          <h2>Table of Contents</h2>
-          <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#getting-started">Getting Started</a></li>
-            <li><a href="#configuration">Configuration</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#usage">Usage</a></li>
-            <li><a href="#troubleshooting">Troubleshooting</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#support">Support</a></li>
-          </ul>
+          <div className="toc-box">
+            <h2>Table of Contents</h2>
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#getting-started">Getting Started</a></li>
+              <li><a href="#configuration">Configuration</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#usage">Usage</a></li>
+              <li><a href="#troubleshooting">Troubleshooting</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#support">Support</a></li>
+            </ul>
+          </div>
         </aside>
         <div className="separator"></div>
         <section className="content-section">
@@ -120,3 +120,15 @@ export default function Documentation() {
     </motion.div>
   );
 }
+
+const Header = () => (
+  <header style={{ backgroundColor: "#fff", color: "#000", padding: "20px", textAlign: "center" }}>
+    <h1>ONbot Documentation</h1>
+  </header>
+);
+
+const Footer = () => (
+  <footer style={{ backgroundColor: "#fff", color: "#000", padding: "10px", textAlign: "center", marginTop: "auto" }}>
+    <p>&copy; 2024 ONbot. All rights reserved.</p>
+  </footer>
+);

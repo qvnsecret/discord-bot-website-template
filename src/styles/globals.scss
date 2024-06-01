@@ -82,11 +82,25 @@ body {
 
 .documentation {
   color: #fff;
-  max-width: 800px;
-  width: 100%;
+  display: flex;
+  flex: 1;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
+  position: relative;
+}
+
+.toc-section {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+}
+
+.toc-section h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .toc-section ul {
@@ -100,22 +114,55 @@ body {
 
 .toc-section a {
   text-decoration: none;
-  color: #58a6ff;
+  color: white;
+}
+
+.separator {
+  width: 1px;
+  background-color: #fff;
+  height: 100%;
+  position: absolute;
+  left: 250px;
+  top: 0;
+  bottom: 0;
 }
 
 .content-section {
-  margin-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 270px;
 }
 
 .content-section h2 {
   border-bottom: 1px solid #e1e4e8;
   padding-bottom: 5px;
   margin-top: 40px;
+  color: white;
 }
 
 .content-section h3 {
   margin-top: 20px;
+  color: white;
 }
+
+.content-section ul,
+.content-section ol {
+  text-align: left;
+  padding-left: 20px;
+  color: white;
+}
+
+body {
+  background-color: rgba(30, 30, 30, 0.9);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+}
+
+a {
+  color: white;
+}
+
 
 body {
   background-color: #1e1e1e;

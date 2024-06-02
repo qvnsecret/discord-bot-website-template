@@ -3,15 +3,15 @@ import Head from 'next/head';
 
 const TestPage = () => {
   return (
-    <div>
+    <>
       <Head>
-        <meta charSet="UTF-8" />
         <title>Test Page</title>
       </Head>
       <div>
-        {/* Your content goes here */}
+        <h1>Hello, World!</h1>
+        <p>This is a test page.</p>
       </div>
-    </div>
+    </>
   );
 };
 
